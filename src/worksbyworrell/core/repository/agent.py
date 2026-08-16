@@ -3,9 +3,9 @@ from typing import Any, Dict
 
 import yaml
 
-from worksbyworrell.warlock.repository.base import AgentRepository
-from worksbyworrell.warlock.repository.github import fetch_github_file
-from worksbyworrell.warlock.repository.parser import parse_content, parse_file
+from worksbyworrell.core.repository.base import AgentRepository
+from worksbyworrell.core.repository.github import fetch_github_file
+from worksbyworrell.core.repository.parser import parse_content, parse_file
 
 AGENT_CONFIGURATIONS = "agent_configurations"
 AGENT_OVERLAYS = "agent_overlays"

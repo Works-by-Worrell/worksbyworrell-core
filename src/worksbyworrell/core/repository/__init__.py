@@ -1,21 +1,21 @@
 import os
 
-from worksbyworrell.warlock.repository.agent import GithubAgentRepository, LocalAgentRepository
-from worksbyworrell.warlock.repository.base import (
+from worksbyworrell.core.repository.agent import GithubAgentRepository, LocalAgentRepository
+from worksbyworrell.core.repository.base import (
     AgentRepository,
     ResourceRepository,
     SkillMetadataRepository,
     UserProfileRepository,
 )
-from worksbyworrell.warlock.repository.profile import (
+from worksbyworrell.core.repository.profile import (
     GithubUserProfileRepository,
     LocalUserProfileRepository,
 )
-from worksbyworrell.warlock.repository.resource import (
+from worksbyworrell.core.repository.resource import (
     GithubResourceRepository,
     LocalResourceRepository,
 )
-from worksbyworrell.warlock.repository.skill import (
+from worksbyworrell.core.repository.skill import (
     GithubSkillMetadataRepository,
     LocalSkillMetadataRepository,
 )
